@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+*{
+	box-sizing: border-box;
+}
+
+
+:root{
+	--primary-color: #d1d5db;
+	--secondary-color:  #b91c1c;
+}
+
+body{
+	margin: 0px;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+}
+main{
+	text-align: center;
+	margin: auto;
+	padding: 1rem;
+	max-width: 600px;
+}
+
+.container-child {
+	text-align: center;
+}
+
+.container-child bottom{
+	margin-right: 1rem;
+}
+
+
+.container-child .heading {
+	color: var(--secondary-color);
+	font-family: 'Dancing Script', cursive;
+	font-size: 4rem;
+	padding-bottom: 2rem;
+}
+
+.container-child h3 {
+	color: var(--secondary-color);
+	margin-bottom: 0px;
+}
+
+.container-child img{
+	height: 60vh;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+textarea{
+	width: 100%;
+	height: 20vh;
+	padding: 1rem;
+	background-color: var(--primary-color);
+	display: block;
+	font-size: large;
+	margin-top: 2rem;
+}
+
+#btn-translate{
+	color: var(--secondary-color);
+	font-weight: bold;
+	font-size: large;
+	background-color: transparent;
+	display: block;
+	font-family: 'Dancing Script', cursive;
+	padding: 1rem 2rem;
+	margin-top: 1rem;
+    cursor: pointer;
+}
+
+#output{
+	width: 100%;
+	height: 20vh;
+	padding:  1rem;
+	margin-top: 1rem;
+	border: 1px solid black;
+	background-color: var(--primary-color);
+	overflow: scroll;
+}
+
+footer{
+	color: var(--primary-color);
+	text-align: center;
+	width: 100%;
+	padding: 1rem;
+}
+
+footer h2{
+	font-family: 'Dancing Script', cursive;
+	color: var(--secondary-color);
+}
+
+footer p{
+	font-family: 'Dancing Script', cursive;
+	max-width: 600px;
+	margin: auto;
+}
